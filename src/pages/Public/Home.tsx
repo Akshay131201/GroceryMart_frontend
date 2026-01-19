@@ -4,6 +4,8 @@ import { useAuth } from "../../auth/AuthContext";
 import HeroSlider from "../../components/home/HeroSlider";
 import CategoriesSlider from "../../components/home/categories/CategoriesSlider";
 import FeaturedSlider from "../../components/home/featured/FeaturedSlider";
+import OffersSection from "../../components/home/offers/OffersSection";
+
 
 const Home = () => {
   const { token, role } = useAuth();
@@ -24,6 +26,10 @@ const Home = () => {
 
       {/* ================= FEATURED PRODUCTS ================= */}
       <FeaturedSlider />
+
+      {/* ================= OFFERS ================= */}
+      <OffersSection />
+
 
       {/* ================= CTA SECTION ================= */}
       <section className="bg-white">

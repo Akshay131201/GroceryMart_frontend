@@ -44,10 +44,10 @@ const FeaturedCard = ({ item }: Props) => {
       {/* Price */}
       <div className="flex justify-center items-center gap-2 mb-4">
         <span className="text-orange-500 font-bold text-lg">
-          ${item.price}
+          ₹{item.price}
         </span>
         <span className="text-gray-400 line-through text-sm">
-          ${item.oldPrice}
+          ₹{item.oldPrice}
         </span>
       </div>
 

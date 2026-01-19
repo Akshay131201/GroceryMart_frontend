@@ -2,7 +2,7 @@ import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
 
 const Footer = () => {
   return (
-    <footer className="hidden sm:block bg-rose-50 border-t mt-16 ">
+    <footer className="hidden sm:block bg-black border-t mt-16 ">
       {/* Divider */}
       <div className="border-t " />
 
@@ -11,9 +11,9 @@ const Footer = () => {
         {/* Brand Info */}
         <div>
           <div className="text-xl font-bold text-green-700 mb-2">
-              Super<span className="text-red-600">Market</span>
+              Super<span className="text-white">Market</span>
           </div>
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-white leading-relaxed">
             SuperMarket brings its customers low prices every day. We offer a wide
             choice covering fresh & packaged food, grains, pulses, dairy,
             frozen, plastics, utensils, crockery, travel, stationery & more.
@@ -30,7 +30,7 @@ const Footer = () => {
         {/* Your Account */}
         <div>
           <h3 className="font-semibold mb-3">Your Account</h3>
-          <ul className="space-y-2 text-gray-600">
+          <ul className="space-y-2 text-white">
             <li>FAQs</li>
             <li>Store List</li>
           </ul>
@@ -39,7 +39,7 @@ const Footer = () => {
         {/* Help & Support */}
         <div>
           <h3 className="font-semibold mb-3">Help & Support</h3>
-          <ul className="space-y-2 text-gray-600">
+          <ul className="space-y-2 text-white">
             <li>Share Feedback</li>
             <li>Call Us</li>
           </ul>
@@ -48,7 +48,7 @@ const Footer = () => {
         {/* About */}
         <div>
           <h3 className="font-semibold mb-3">About Us</h3>
-          <ul className="space-y-2 text-gray-600">
+          <ul className="space-y-2 text-white">
             <li>Terms</li>
             <li>Privacy Policy</li>
             <li>Return & Refund Policy</li>
